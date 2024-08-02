@@ -93,18 +93,13 @@ section {
 
 .tag {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #B7EBFE;
     color: white;
     padding: 5px 10px;
     margin: 5px 5px 0 0;
-    border-radius: 3px;
+    border-radius: 15px;
     font-size: 0.9em;
 }
-
-.tag:hover {
-    background-color: #0056b3;
-}
-
 
 footer {
     text-align: center;
