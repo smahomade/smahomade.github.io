@@ -93,7 +93,8 @@ section {
 
 .tag {
     display: inline-block;
-    background-color: #B6CED7;
+    /* background-color: #B6CED7;*/
+    background-color: #FAC16A;
     color: white;
     padding: 5px 10px;
     margin: 5px 5px 0 0;
