@@ -59,10 +59,19 @@ section {
 
 .project {
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.project h3 {
-    margin-top: 0;
+.project a {
+    display: inline-block;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
 
 footer {
