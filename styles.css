@@ -147,7 +147,7 @@ section {
 }
 
 .youtube-button {
-    width: 200px;
+    width: 100px;
     height: auto;
     transition: transform 0.3s;
 }
