@@ -141,7 +141,20 @@ section {
     font-size: 0.9em;
 }
 
+.youtube-link {
+    margin: 10px auto; /* Center the YouTube button */
+    text-align: center;
+}
 
+.youtube-button {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.youtube-button:hover {
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
 
 
 footer {
