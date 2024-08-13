@@ -147,7 +147,7 @@ section {
 }
 
 .youtube-button {
-    width: 50px; /* Adjust the size as needed */
+    width: 85px; /* Adjust the size as needed */
     height: auto;
     transition: transform 0.3s;
 }
