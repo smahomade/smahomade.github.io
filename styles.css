@@ -36,10 +36,6 @@ nav ul li a {
 }
 
 
-.container {
-    display: flex;
-    gap: 20px;
-}
 
 .section {
     flex: 1;
