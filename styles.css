@@ -43,10 +43,10 @@ nav ul li a {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 300px; /* Optional: Set a minimum height if you want to enforce a baseline height */
 }
 
 .about-content {
