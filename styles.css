@@ -36,16 +36,21 @@ nav ul li a {
 }
 
 
+.container {
+    display: flex;
+    gap: 20px;
+}
 
-section {
+.section {
+    flex: 1;
     padding: 20px;
-    margin: 20px auto;
-    min-width: 800px;
-    max-width: 800px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex: 1
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px; /* Optional: Set a minimum height if you want to enforce a baseline height */
 }
 
 .about-content {
