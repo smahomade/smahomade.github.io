@@ -209,7 +209,25 @@ nav ul li a {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #333;
     color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logos {
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    width: 40px; /* Adjust size to your liking */
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer-logo:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
