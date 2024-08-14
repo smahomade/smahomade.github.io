@@ -217,17 +217,3 @@ footer {
     width: 100%;
 }
 
-.footer-logos {
-    margin-bottom: 15px;
-}
-
-.footer-logo {
-    width: 40px; /* Adjust size to your liking */
-    height: auto;
-    margin: 0 10px;
-    transition: transform 0.3s;
-}
-
-.footer-logo:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
-}
