@@ -12,7 +12,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 25px 0 0 0;
     text-align: center;
 }
 
@@ -20,27 +20,42 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.navbar {
+    background-color: #333;
+    margin-top: 10px; /* Remove any margin above the navbar */
+    padding-top: 0; /* Remove padding above the navbar */
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+/* Centered Brand Name Styling */
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+/* Centered Navigation Links */
+.nav-link {
+    color: #fff !important;
+    margin: 0 15px; /* Space between nav items */
 }
+
+.nav-link:hover {
+    color: #ddd !important; /* Lighter shade on hover */
+}
+
+/* Center the header content */
+.text-center {
+    text-align: center;
+}
+
+
 
 .section {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Control the maximum width of the sections */
+    max-width: 1300px; /* Control the maximum width of the sections */
     margin: 20px auto; /* Center the sections */
     display: flex;
     flex-direction: column;
@@ -63,29 +78,48 @@ nav ul li a {
     margin: 0;
 }
 
-#education {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+/* General Section Styling */
+#education-cv {
+    padding: 40px 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.education-content {
+    max-width: 1100px; /* Set a maximum width */
+    margin: 20px auto; /* Center the section */
     display: flex;
-    align-items: center;
-    gap: 20px; 
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.education-image {
-    width: 100px;
-    height: auto;
+.education-content, .cv-content {
+    background-color: #f9f9f9;
     border-radius: 10px;
 }
 
-.education-details {
-    font-family: 'Arial', sans-serif; 
+/* Specific Styles for Education Section */
+.education-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.education-details h3 {
+    margin-bottom: 10px;
+}
+
+/* Specific Styles for CV Section */
+.cv-content h2 {
+    margin-bottom: 20px;
+}
+
+.cv-content .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/* Ensure both containers have equal height */
+.h-100 {
+    height: 100%;
 }
 
 .education-details h3 {
@@ -103,6 +137,20 @@ nav ul li a {
 .education-details strong {
     font-weight: bold;
     color: #333;
+}
+    
+
+.cv-download {
+    text-align: center;
+}
+
+.cv-download h3 {
+    margin-bottom: 20px;
+}
+
+.cv-download a.btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
 }
 
 .projects-grid {
@@ -144,7 +192,7 @@ nav ul li a {
 
 .project-status {
     margin-top: auto;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 15px;
     font-size: 0.9em;
     font-weight: bold;
@@ -171,13 +219,13 @@ nav ul li a {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin-right: 5px;
+    margin-right: 10px;
     background-color: currentColor;
 }
 
 .tag {
     display: inline-block;
-    background-color: #FAC16A;
+    background-color: #ffb950;
     color: white;
     padding: 5px 10px;
     margin: 5px 5px 0 0;
@@ -198,6 +246,53 @@ nav ul li a {
 
 .youtube-button:hover {
     transform: scale(1.1); 
+}
+
+#skills {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Background color for the skills section */
+    border-radius: 10px;
+}
+
+#skills h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual effect */
+}
+
+.custom-badge {
+    background-color: #4eb6c1;
+}
+.custom-badge2 {
+    background-color: #86b957;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form .form-control {
+    border-radius: 5px;
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
 }
 
 
@@ -226,12 +321,12 @@ footer {
     transform: scale(1.1); 
 }
 
-#about, #education, #projects, #contact {
+#about, #education, #projects, #contact, #skills {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Set a maximum width */
+    max-width: 1100px; /* Set a maximum width */
     margin: 20px auto; /* Center the section */
     display: flex;
     flex-direction: column;
