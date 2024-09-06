@@ -162,6 +162,16 @@ header h1 {
     padding: 10px;
 }
 
+/* Main project takes up 2 columns */
+.main-project {
+    grid-column: span 2; /* Make the main project take up 2 grid columns */
+}
+
+/* Side project takes up 1 column (default) */
+.side-project {
+    grid-column: span 1; /* Side projects will only take up 1 grid column */
+}
+
 .project {
     background-color: #f9f9f9;
     padding: 15px;
@@ -185,9 +195,26 @@ header h1 {
     transform: scale(1.05);
 }
 
+.small-project-tags{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .project-tags {
     margin-top: 10px;
     margin-bottom: 100px;
+}
+.project-date {
+    margin-top: auto;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: #6d6d6d;
+
 }
 
 .project-status {
