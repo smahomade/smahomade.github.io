@@ -48,8 +48,6 @@ header h1 {
     text-align: center;
 }
 
-
-
 .section {
     padding: 20px;
     background-color: white;
@@ -182,7 +180,6 @@ header h1 {
     flex-direction: column;
 }
 
-
 .project-image {
     width: 100%;
     max-width: 100%;
@@ -254,9 +251,6 @@ header h1 {
     position: relative;
     padding-top: 50px; /* Space above the image, without affecting the clickable area */
 }
-
-
-
 
 .project-status {
     margin-top: auto;
