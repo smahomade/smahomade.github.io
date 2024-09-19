@@ -234,16 +234,25 @@ header h1 {
     animation: rainbow 3s linear infinite alternate; /* Slower and smoother animation */
 }
 
-.card.project {
+.card {
     position: relative;
-    overflow: hidden; /* This ensures content inside the card does not spill out */
+    padding-top: 50px; /* Space above the image, without affecting the clickable area */
 }
 
 .card img {
     z-index: 1;
-    position: relative; /* Ensure the image stays clickable */
-    padding-top: 50px; /* Add padding to give space for the label */
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
 
 
 
