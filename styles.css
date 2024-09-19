@@ -230,6 +230,7 @@ header h1 {
     background-clip: text;
     color: transparent; /* Transparent text to show the gradient */
     animation: rainbow 3s linear infinite alternate; /* Slower and smoother animation */
+    white-space: nowrap;
 }
 /* Style specifically for project images */
 .card .project-image {
