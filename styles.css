@@ -233,13 +233,8 @@ header h1 {
     color: transparent; /* Transparent text to show the gradient */
     animation: rainbow 3s linear infinite alternate; /* Slower and smoother animation */
 }
-
-.card {
-    position: relative;
-    padding-top: 50px; /* Space above the image, without affecting the clickable area */
-}
-
-.card img {
+/* Style specifically for project images */
+.card .project-image {
     z-index: 1;
     position: relative;
     width: 100%;
@@ -249,8 +244,14 @@ header h1 {
     transition: transform 0.3s;
 }
 
-.card img:hover {
+.card .project-image:hover {
     transform: scale(1.05);
+}
+
+/* General card styling */
+.card {
+    position: relative;
+    padding-top: 50px; /* Space above the image, without affecting the clickable area */
 }
 
 
