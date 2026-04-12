@@ -212,18 +212,15 @@ header h1 {
 
 .project-status-label {
     position: absolute;
-    top: -1.1px;
+    top: 8px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: transparent;
-    color: #ff6600;
+    background-color: rgba(0, 0, 0, 0.72);
+    color: #ffde59;
     font-weight: bold;
-    padding: 5px 15px;
-    border-bottom: 2px solid #aeaeae;
-    border-left: 2px solid #aeaeae;
-    border-right: 2px solid #aeaeae;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    padding: 6px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
     z-index: 10;
     width: fit-content;
     pointer-events: none;
@@ -232,13 +229,14 @@ header h1 {
 .project-status-label .project-date {
     font-size: 0.9rem;
     margin: 0;
-    background: linear-gradient(90deg, red, orange, yellow, green,rgb(0, 255, 225), blue, indigo, violet,rgb(255, 0, 1));
-    background-size: 400%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; /* Transparent text to show the gradient */
-    animation: rainbow 3s linear infinite alternate; /* Slower and smoother animation */
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
     white-space: nowrap;
+}
+
+/* Keep all repo button groups centered in project cards */
+.project .d-flex.flex-wrap.gap-2.mb-2 {
+    justify-content: center;
 }
 /* Style specifically for project images */
 .card .project-image {
